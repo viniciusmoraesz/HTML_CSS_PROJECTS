@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    background-color: var(--color-off-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 174px 528px;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+--color-white: hsl(0, 0%, 100%);
+--color-grey: hsl(0, 0%, 20%);
+--color-dark-grey: hsl(0, 0%, 12%);
+--color-off-black: hsl(0, 0%, 8%);
+--color-green: hsl(75, 94%, 57%);
+}
+
+.heading{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.body-bold{
+    color: var(--color-green);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.body-regular{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.body-regular-links{
+    color: var(--color-white);
+    text-align: start;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card{
+    width: 384px;
+    background-color: var(--color-dark-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px;
+}
+
+img{
+    border-radius: 999px;
+    width: 88px;
+}
+
+.name-location{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 304px;
+    gap: 4px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 12px;
+    width: 304px;
+}
+
+.btn{
+    background-color: var(--color-grey);
+    border-radius: 8px;
+    width: 304px;
+    height: 45px;
+}
+
+.btn:hover{
+    background-color: var(--color-green);
+    color: var(--color-grey);
+}
+
+.git{
+    padding: 12px 127.5px;
+}
+
+.front{
+    padding: 12px 94.5px;
+}
+
+.linkedin{
+    padding: 12px 122.5px;
+}
+
+.twitter{
+    padding: 12px 127px;
+}
+
+.instagram{
+    padding: 12px 117px;
+}
+
+.attribution{
+    position: absolute;
+    top: 900px;
+    right: 20px;
+    color: var(--color-white);
+}

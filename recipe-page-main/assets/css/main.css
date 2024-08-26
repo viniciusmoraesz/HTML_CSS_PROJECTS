@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-Eggshell);
+}
+
+hr {
+    color: var(--color-Light-Grey);
+    width: 656px;
+}
+
+img {
+    border-radius: 12px;
+    object-fit: cover;
+    height: 300px;
+    width: 656px;
+}
+
+.instructions li{
+    list-style: decimal;
+}
+
+:root{
+    --color-Nutmeg: hsl(14, 45%, 36%);
+    --color-Dark-Raspberry: hsl(332, 51%, 32%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Rose-White: hsl(330, 100%, 98%);
+    --color-Eggshell: hsl(30, 54%, 90%);
+    --color-Light-Grey: hsl(30, 18%, 87%);
+    --color-Wenge-Brown: hsl(30, 10%, 34%);
+    --color-Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+.main{
+    margin: 123px 352px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--color-White);
+    padding: 40px;
+    width: 736px;
+    height: 1708px;
+    border-radius: 24px;
+}
+
+
+.text-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 656px;
+    height: 112px;
+}
+
+.preparation{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: var(--color-Rose-White);
+    width: 656px;
+    height: 180px;
+    padding: 28px;
+}
+
+.ingredients{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 656px;
+    height: 204px;
+}
+
+.instructions{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 656px;
+    height: 332px;
+}
+
+.nutrition{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 656px;
+    height: 268px;
+}
+
+.heading-L{
+    text-align: start;
+    color: var(--color-Dark-Charcoal);
+    font-size: 4.0rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading-S{
+    text-align: start;
+    color: var(--color-Dark-Raspberry);
+    font-size: 2.0rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading-M{
+    text-align: start;
+    color: var(--color-Nutmeg);
+    font-size: 2.8rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body-regular{
+    text-align: start;
+    color: var(--color-Wenge-Brown);
+    font-size: 1.6rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.body-bold{
+    text-align: start;
+    color: var(--color-Wenge-Brown);
+    font-size: 1.6rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.li-1{
+    color: var(--color-Dark-Raspberry);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 16px;
+}
+
+.li-2{
+    color: var(--color-Nutmeg);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 16px;
+}
+
+.list {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.preparation-list{
+    height: 88px;
+    padding-left: 16px;
+
+}
+
+.ingredients-list{
+    height: 152px;
+    padding-left: 18px;
+
+}
+
+.instruction-list{
+    height: 280px;
+    padding-left: 18px;
+}
+
+.td-2{
+    text-align: start;
+    color: var(--color-Nutmeg);
+    font-size: 1.6rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+tbody {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cal{
+    padding-left: 274px;
+}
+
+.carb{
+    padding-left: 289px;
+}
+
+.protein{
+    padding-left: 280px;
+}
+
+.fat{
+    padding-left: 308px;
+}
